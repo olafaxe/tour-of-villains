@@ -1,18 +1,16 @@
-ul {
-  display: flex;
-  align-items: center;
-}
 a:link,
 a:visited {
   text-decoration: none;
-  color: #474747;
+  color: #f8f8f8;
 }
 .dashboard--villain {
-  background-color: #e72fff;
+  margin-top: 25px;
+  background-color: #2b0830;
   height: 40px;
-  width: 100px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

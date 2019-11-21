@@ -9,6 +9,16 @@
   flex: 1;
 }
 
-a {
+a:link,
+a:visited {
   text-decoration: none;
+  color: #444444;
+}
+
+.header__container {
+  margin-top: 25px;
+}
+.header__container,
+.body__container {
+  background-color: #e4f0f1;
 }

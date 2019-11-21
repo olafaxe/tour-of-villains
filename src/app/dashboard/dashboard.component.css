@@ -4,10 +4,11 @@ a:visited {
   color: #f8f8f8;
 }
 .dashboard--villain {
-  background-color: #801a8d;
+  background-color: #2b0830;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
