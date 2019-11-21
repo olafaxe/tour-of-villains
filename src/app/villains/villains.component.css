@@ -1,0 +1,35 @@
+.villain--add {
+  display: flex;
+  flex-direction: column;
+}
+
+.villain--input {
+  float: right;
+}
+h2 {
+  text-align: center;
+}
+.villain__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.villains__container:nth-child(even) {
+  background: #795f6a;
+  box-shadow: 2px -2px 5px 1px #8d2b40;
+  color: #f8f8f8;
+}
+
+.villains__container:nth-child(odd) {
+  background: #b9e0e6;
+  box-shadow: 2px -2px 5px 1px #2b6461;
+  color: #000000;
+}
+
+.selected {
+  background: #f61f80;
+}

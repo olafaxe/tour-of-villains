@@ -1,0 +1,33 @@
+<div class="villains--content">
+  <div class="villain--add">
+    <h2>Villains</h2>
+    <label
+      >Villain name:
+      <input class="villain--input" #villainName />
+    </label>
+    <label
+      >Villain identity:
+      <input class="villain--input" #villainIdentity />
+    </label>
+    <label>
+      Villain power:
+      <input class="villain--input" #villainPower />
+    </label>
+    <button
+      (click)="add(villainName.value, villainIdentity.value, villainPower.value); villainName.value = ''; villainIdentity.value = ''; villainPower.value = ''"
+    >
+      add
+    </button>
+  </div>
+  <div class="villains__container" *ngFor="let villain of villains">
+    <div class="villain__content" routerLink="/detail/{{ villain.id }}">
+      <h2>{{ villain.name | uppercase }}</h2>
+      <h3>{{ villain.power | lowercase }}</h3>
+      <h4>{{ villain.identity }}</h4>
+      <h4>Level: {{ villain.level }}</h4>
+      <button class="delete" title="delete villain" (click)="delete(villain)">
+        Destroy Villain
+      </button>
+    </div>
+  </div>
+</div>

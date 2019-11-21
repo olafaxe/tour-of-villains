@@ -1,0 +1,4 @@
+.villain--details {
+  display: flex;
+  flex-direction: column;
+}

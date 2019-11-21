@@ -1,0 +1,11 @@
+<div class="dashboard--container">
+  <h3>Top 3 Baddies</h3>
+  <div>
+    <a *ngFor="let villain of villains" routerLink="/detail/{{ villain.id }}">
+      <div class="dashboard--villain">
+        <h4>{{ villain.name }}</h4>
+      </div>
+    </a>
+  </div>
+  <app-villain-search></app-villain-search>
+</div>

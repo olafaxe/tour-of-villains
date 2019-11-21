@@ -1,0 +1,14 @@
+.dashboard--container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.dashboard--link {
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+}

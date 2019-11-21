@@ -1,0 +1,18 @@
+ul {
+  display: flex;
+  align-items: center;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #474747;
+}
+.dashboard--villain {
+  background-color: #e72fff;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
